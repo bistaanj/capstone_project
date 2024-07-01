@@ -54,15 +54,15 @@
     <!-- post button name - post-button -->
     <main class="container mt-5">
         <h2 class="text-center">Post a Blog</h2>
-        <form>
+        <form action="../php/postblogendpoint.php" method="post">
             <div class="form-group">
-                <input type="text" class="form-control rounded-pill" placeholder="Title">
+                <input name="title" type="text" class="form-control rounded-pill" placeholder="Title">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control rounded-pill" placeholder="Cover Picture">
+                <input name="image" type="text" class="form-control rounded-pill" placeholder="Cover Picture">
             </div>
             <div class="form-group">
-                <textarea class="form-control" rows="10" placeholder="Write your blog here..."></textarea>
+                <textarea name="blog_content" class="form-control" rows="10" placeholder="Write your blog here..."></textarea>
             </div>
             <div class="text-center">
                 <button name="post-button" type="submit" class="btn btn-primary rounded-pill px-4">Post</button>

@@ -72,7 +72,7 @@
                         </li>
                         <li class="nav-item mb-3 d-flex align-items-center">
                             <i class="bi bi-pencil-square"></i>
-                            <a class="nav-link" href="postblog.html">Post a Blog</a>
+                            <a class="nav-link" href="postblog.php">Post a Blog</a>
                         </li>
                     </ul>
                 </div>
